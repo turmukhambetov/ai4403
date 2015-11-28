@@ -26,7 +26,7 @@ var createReservation = function(bookingID){
 var createBooking=function(userID,sessionID){
 //create a new booking for a session
 var logic = checkDuplicateBooking(userID,sessionID);
-if logic(===true){
+if (logic===true){
 	console.log("Here I create a new line in the booking DB");
 	console.log("")
 } else {
